@@ -71,7 +71,7 @@ function Modal({ closeModal }) {
                   </div>
                   <div className="btn-post">
                     {/* <button type="submit" onClick={() => closeModal()}>Cadastrar</button> */}
-                    <button className="close" onClick={() => navigate("/")}>
+                    <button className="close" onClick={() => closeModal(false)}>
                       Fechar
                     </button>
                   </div>
