@@ -34,13 +34,13 @@ Assuming that NodeJS is installed on the machine, run the command:
 
 * Javascript
 
-<div style="display: flex;" style="gap: 10;">
+<div style="display: flex;" style="margin: 3rem;">
 
 <img src="https://raw.githubusercontent.com/tomchen/stack-icons/634d5c036a2a7ca0115c94ab2ce86c7e79e01e13/logos/nodejs.svg" height="170" width="170"/>
 
 <img src="https://raw.githubusercontent.com/tomchen/stack-icons/634d5c036a2a7ca0115c94ab2ce86c7e79e01e13/logos/javascript.svg" height="170" width="170"/>
 
-<img src="https://raw.githubusercontent.com/tomchen/stack-icons/634d5c036a2a7ca0115c94ab2ce86c7e79e01e13/logos/react.svg" height="170" width="170" margin="2rem"/>
+<img src="https://raw.githubusercontent.com/tomchen/stack-icons/634d5c036a2a7ca0115c94ab2ce86c7e79e01e13/logos/react.svg" height="170" width="170"/>
 
 </div>
 
