@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Module 4 - Project 1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## After downloading or cloning the project, install the dependencies:
 
-## Available Scripts
+Assuming that NodeJS is installed on the machine, run the command:
 
-In the project directory, you can run:
+### `npm install`
+
+## To run the project locally:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `open local server http://localhost:3000`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Application screens:
 
-### `npm test`
+* List of all items
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/97900313/183875042-7db10097-71c1-419d-85a6-e85960b1073b.png)
 
-### `npm run build`
+* Item by ID
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/97900313/183876258-285e64e8-1c04-450f-bc2d-37ce1e7c921b.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Register new item
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://user-images.githubusercontent.com/97900313/183876560-b93b397a-5485-45b2-8896-4f39e0bdc929.png)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
