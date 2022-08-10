@@ -96,6 +96,9 @@ textarea {
   background-color: #0099da;
   color: whitesmoke;
 }
+#close, #register {
+  width: 160px;
+}
 
 .error-message {
   color: rgb(240, 47, 47);

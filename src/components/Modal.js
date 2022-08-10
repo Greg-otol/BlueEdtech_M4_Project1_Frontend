@@ -70,8 +70,8 @@ function Modal({ closeModal }) {
                     <p className="error-message">{errors.year?.message}</p>
                   </div>
                   <div className="btn-post">
-                    {/* <button type="submit" onClick={() => closeModal()}>Cadastrar</button> */}
-                    <button className="close" onClick={() => closeModal(false)}>
+                    <button id="register" type="submit">Cadastrar</button>
+                    <button id="close" onClick={closeModal}>
                       Fechar
                     </button>
                   </div>

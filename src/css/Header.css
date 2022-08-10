@@ -38,6 +38,9 @@ a {
   display: block;
   padding: 0.8rem;
 }
+#a2 {
+  cursor: pointer;
+}
 #menu a img {
   transition: all 0.3s ease-out;
 }

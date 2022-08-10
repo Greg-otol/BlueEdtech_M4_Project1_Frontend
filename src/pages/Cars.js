@@ -5,9 +5,7 @@ import "../css/Cars.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-
 function Cars() {
-
   const [cars, setCars] = useState([]);
 
   useEffect(() => {

@@ -9,9 +9,9 @@ function Header() {
 
   const [ openModal, setOpenModal ] = useState(false);
 
-  function abrirModal(abriu) {
-    setOpenModal(abriu)
-    console.log(openModal, abriu)
+  function abrirModal(e) {
+    e.stopPropagation();
+      setOpenModal(false);
   }
  
   function toggleMenu(event) {
@@ -95,17 +95,12 @@ function Header() {
               </a>
             </li>
             <li>
-              <a id="a2" href="/create">
+              <a id="a2" onClick={() => {
+                setOpenModal(true);
+              }} >
+                {openModal && <Modal closeModal={abrirModal} />}
                 <img src={require('../assets/icons/plus-square.png')} alt="" />
               </a>
-            </li>
-            <li>
-              <div id="a3" onClick={() => {
-                abrirModal(true);
-              }}>
-              {openModal && <Modal closeModal={abrirModal}/>}
-                <img src={require('../assets/icons/search.png')} alt="" />
-              </div>
             </li>
           </ul>
         </nav>
