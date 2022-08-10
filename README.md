@@ -26,3 +26,24 @@ Assuming that NodeJS is installed on the machine, run the command:
 
 ![image](https://user-images.githubusercontent.com/97900313/183876560-b93b397a-5485-45b2-8896-4f39e0bdc929.png)
 
+## Project developed with the technologies:
+
+* NodeJS
+
+* ReactJS
+
+* Javascript
+
+<div style="display: flex;" style="gap: 10;">
+
+<img src="https://raw.githubusercontent.com/tomchen/stack-icons/634d5c036a2a7ca0115c94ab2ce86c7e79e01e13/logos/nodejs.svg" height="120" width="120"/>
+
+<img src="https://raw.githubusercontent.com/tomchen/stack-icons/634d5c036a2a7ca0115c94ab2ce86c7e79e01e13/logos/javascript.svg" height="120" width="120"/>
+
+<img src="https://raw.githubusercontent.com/tomchen/stack-icons/634d5c036a2a7ca0115c94ab2ce86c7e79e01e13/logos/react.svg" height="120" width="120"/>
+
+</div>
+
+## Contact
+
+<a href="https://www.linkedin.com/in/greg%C3%B3rio-neto-a0119b239/" target="_blank"> <img src="https://img.icons8.com/fluency/144/000000/linkedin.png"/></a>
