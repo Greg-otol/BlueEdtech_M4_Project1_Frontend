@@ -21,6 +21,10 @@ const validationPost = yup.object().shape({
 });
 
 function Modal({ closeModal }) {
+  const cleanForm = () => {
+    document.getElementById("myform").reset();
+  };
+
   const navigate = useNavigate();
 
   const {
@@ -49,7 +53,7 @@ function Modal({ closeModal }) {
               <h1>Cadastrar novo carro</h1>
               <div className="line-post"></div>
               <div className="card-body-post">
-                <form onSubmit={handleSubmit(addPost)}>
+                <form id="myform" onSubmit={handleSubmit(addPost)}>
                   <div className="fields">
                     <label>Modelo</label>
                     <input type="text" name="name" {...register("name")} />
@@ -70,7 +74,9 @@ function Modal({ closeModal }) {
                     <p className="error-message">{errors.year?.message}</p>
                   </div>
                   <div className="btn-post">
-                    <button id="register" type="submit">Cadastrar</button>
+                    <button id="register" type="submit" onClick={cleanForm}>
+                      Cadastrar
+                    </button>
                     <button id="close" onClick={closeModal}>
                       Fechar
                     </button>
